@@ -1,4 +1,7 @@
 <?php
+
+namespace PDO;
+
 class PDOIterator implements Iterator {
     private $position = 0;
     private $pdo;
