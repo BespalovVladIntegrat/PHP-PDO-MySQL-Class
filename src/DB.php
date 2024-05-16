@@ -13,7 +13,8 @@ namespace PDO;
  *
  * A PHP MySQL PDO class similar to the Python MySQLdb.
  */
-
+use PDO;
+use PDOStatement;
 /** Class DB
  * @property PDO pdo PDO object
  * @property PDOStatement sQuery PDOStatement
