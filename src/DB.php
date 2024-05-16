@@ -1,4 +1,6 @@
 <?php
+
+namespace PDO;
 /*
  * PHP-PDO-MySQL-Class
  * https://github.com/lincanbin/PHP-PDO-MySQL-Class
@@ -11,8 +13,7 @@
  *
  * A PHP MySQL PDO class similar to the Python MySQLdb.
  */
-require(__DIR__ . '/PDO.Log.class.php');
-require(__DIR__ . '/PDO.Iterator.class.php');
+
 /** Class DB
  * @property PDO pdo PDO object
  * @property PDOStatement sQuery PDOStatement
