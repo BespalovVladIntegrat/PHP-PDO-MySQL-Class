@@ -1,4 +1,7 @@
 <?php
+
+namespace PDO;
+
 class PDOLog
 {
     private $path = '/logs/';
